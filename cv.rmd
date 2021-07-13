@@ -10,6 +10,36 @@ output:
     css: ['dd_cv.css', 'custom.css','resume']
     self_contained: true
 ---
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "Tai-Rocha/Tai-Rocha_CV.github.io") %>% 
+  meta_social(
+    title = "Tainá Rocha CV",
+    description = paste(
+      "CV made with the packages RMarkdown, pagedown, datadrivencv and googlesheet4"
+    ),
+    url = "https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/cv.html",
+    image = "https://beatrizmilz.github.io/resume/img/share-card.png",
+    image_alt = paste(
+      "Tainá Rocha CV"
+    ),
+    og_type = "website",
+    og_author = "Tainá Rocha",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@beamilz"
+  )
+```
+<!-- inicio academic icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<!-- final academic icons -->
+
+ 
+<!-- inicio font awesome -->
+<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+
+ 
+<!-- final font awesome -->
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
@@ -25,7 +55,7 @@ CV <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1MUKWLJtWwxwiAsSwOghy1tkq41rTp9Ivt6y3LVx2JTI/edit#gid=917338460",  
   pdf_mode = params$pdf_mode
 )
-
+#CV$entries_data <- CV$entries_data %>% dplyr::filter(in_resume == TRUE)
 ```
 
 
@@ -51,42 +81,72 @@ Aside
 #datadrivencv::build_network_logo(CV$entries_data) Foto aqui 
 ```
 
-
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _Tai-Rocha.me/Tai-Rocha_CV.github.io/_")
-} else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/Teste_datadriven.pdf)")
+#   cat("View this CV online with links at https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/")
+# } else {
+  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/blob/main/cv.pdf).")
 }
 ```
 
-Contact {#contact}
---------------------------------------------------------------------------------
-
 ```{r}
-CV %>% print_contact_info()
+# if(params$pdf_mode){
+#   cat("View this CV online with links at _Tai-Rocha.me/Tai-Rocha_CV.github.io/_")
+# } else {
+#   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/Teste_datadriven.pdf)")
+#}
 ```
 
 
-
-Language Skills {#skills}
+Software {#software}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %>% print_skill_bars()
+<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
+
+<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
+
+
+Teaching {#teachingr}
+--------------------------------------------------------------------------------
+
+<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
+
+<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
+
+
+Programming Skills {#skills}
+--------------------------------------------------------------------------------
+
+<i class="fab fa-r-project"></i> `R`
+
+```{r echo=FALSE, out.width="5%"}
+#knitr::include_graphics("img/tidyverse_min.png")
 ```
+<i class="fa fa-area-chart" aria-hidden="true"></i>
+ `tidyverse`
+
+<i class="fas fa-code-branch"></i> `Git`
+
+<i class="fab fa-github"></i> `GitHub`
+
+<i class="fab fa-markdown"></i> `Markdown`
+
+<i class="fab fa-html5"></i> `HTML`
+
+<i class="fab fa-css3-alt"></i> `CSS`
+
+
 
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
-The source code is available [on github.com/nstrayer/cv](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/).
+Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
 
-Last updated on `r Sys.Date()`.
-
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
 
 
 Main
