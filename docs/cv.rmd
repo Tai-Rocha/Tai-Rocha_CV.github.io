@@ -85,7 +85,7 @@ Aside
 if(params$pdf_mode){
 #   cat("View this CV online with links at https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/")
 # } else {
-  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/cv.pdf).")
+  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://Tai-Rocha_CV.github.io/cv.pdf).")
 }
 ```
 
