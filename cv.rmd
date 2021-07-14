@@ -46,10 +46,8 @@ knitr::opts_chunk$set(
   results='asis', 
   echo = FALSE
 )
-
 library(magrittr) # For the pipe
 source("cv_printing_functions.r")
-
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1MUKWLJtWwxwiAsSwOghy1tkq41rTp9Ivt6y3LVx2JTI/edit#gid=917338460",  
@@ -85,7 +83,7 @@ knitr::include_graphics("images/CV_profile.jpg")
 if(params$pdf_mode){
 #   cat("View this CV online with links at https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/")
 # } else {
-  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/docs/cv.pdf).")
+  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/cv.pdf).")
 }
 ```
 
