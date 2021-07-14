@@ -27,7 +27,7 @@ meta() %>%
     og_type = "website",
     og_author = "Tainá Rocha",
     twitter_card_type = "summary_large_image",
-    twitter_creator = "@beamilz"
+    twitter_creator = "@Tai_Rocha_"
   )
 ```
 <!-- inicio academic icons -->
@@ -103,7 +103,7 @@ Contact {#contact}
 
 <i class="fa fa-github"></i> [Github](https://github.com/Tai-Rocha)
 
-<i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-8082-1890)
+<i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0001-6874-2447)
 
 <!-- <i class="fas fa-eye"></i> [Lattes](http://lattes.cnpq.br/3678449749062447)  -->
 
