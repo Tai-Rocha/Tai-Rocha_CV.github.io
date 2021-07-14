@@ -130,21 +130,32 @@ Skills {#skills}
 
 <i class="fab fa-r-project"></i> `R`
 
-```{r echo=FALSE, out.width="5%"}
-#knitr::include_graphics("img/tidyverse_min.png")
-```
-<i class="fa fa-area-chart" aria-hidden="true"></i>
- `tidyverse`
-
 <i class="fas fa-code-branch"></i> `Git`
 
 <i class="fab fa-github"></i> `GitHub`
 
 <i class="fab fa-markdown"></i> `Markdown`
 
-<i class="fab fa-html5"></i> `HTML`
+```{r echo=FALSE, out.width="20%"}
+knitr::include_graphics("images/TeX.png")
+```
 
-<i class="fab fa-css3-alt"></i> `CSS`
+<i class="fa fa-linux" aria-hidden="true"></i>
+ `Linux OS`
+
+```{r echo=FALSE, out.width="13%"}
+knitr::include_graphics("images/QGIS.png")
+``` 
+`GIS`
+
+```{r echo=FALSE, out.width="20%"}
+knitr::include_graphics("images/ARCGIS.png")
+``` 
+
+
+<!-- <i class="fab fa-html5"></i> `HTML` -->
+
+<!-- <i class="fab fa-css3-alt"></i> `CSS` -->
 
 
 
@@ -193,23 +204,21 @@ CV %<>% print_section('research_positions')
 
 
 
-Industry Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
+<!-- <!-- Industry Experience {data-icon=suitcase} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-::: aside
-```{r}
-CV %<>% print_text_block('industy_experience_aside')
-```
-:::
+<!-- ::: aside -->
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('industy_experience_aside') -->
+<!-- ``` -->
+<!-- ::: -->
 
 ```{r}
 #CV %<>% print_section('industry_positions')
 ```
 
 <!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
+
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -225,50 +234,48 @@ CV %<>% print_section('teaching_positions')
 ```
 
 
-
-Selected Data Science Writing {data-icon=chart-line}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-#CV %<>% print_text_block('data_science_writing_aside')
-```
-:::
-
-```{r}
-#CV %<>% print_section('data_science_writings')
-```
-
-
-
-<!-- Selected Press (About)  {data-icon=newspaper} -->
---------------------------------------------------------------------------------
-
-```{r}
-#CV %<>% print_section('about_me_press')
-```
-
-
-<br>
-<br>
-
-
-<!-- Selected Press (By)  {data-icon=newspaper} -->
---------------------------------------------------------------------------------
-
-```{r}
-#CV %<>% print_section('by_me_press')
-```
-
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
+Selected Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
 
+
+
+Selected Talks & Scientific communication  {data-icon=bullhorn}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('data_science_writing_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('data_science_writings')
+```
+
+
+
+Selected Events  {data-icon=address-card-o}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('about_me_press')
+```
+
+
+<!-- <br> -->
+<!-- <br> -->
+
+
+<!-- <!-- Selected Press (By)  {data-icon=newspaper} --> 
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ```{r} -->
+<!-- #CV %<>% print_section('by_me_press') -->
+<!-- ``` -->
 
 
 ```{r}
