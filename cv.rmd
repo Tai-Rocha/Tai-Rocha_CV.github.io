@@ -71,11 +71,11 @@ if(params$pdf_mode) {
 }
 ```
 
-
 Aside
 ================================================================================
 
-```{r}
+```{r, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/CV_profile.jpg")
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
 #datadrivencv::build_network_logo(CV$entries_data) Foto aqui 
@@ -98,23 +98,36 @@ if(params$pdf_mode){
 ```
 
 
-Software {#software}
+Contact {#contact}
 --------------------------------------------------------------------------------
 
-<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
+<i class="far fa-envelope"></i> taina013@gmail.com
 
-<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
+<i class="fa fa-github"></i> [Github](https://github.com/Tai-Rocha)
+
+<i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-8082-1890)
+
+<!-- <i class="fas fa-eye"></i> [Lattes](http://lattes.cnpq.br/3678449749062447)  -->
+
+<i class="fab fa-researchgate"></i> [Researchgate](https://www.researchgate.net/profile/Taina-Rocha-3) 
+
+<i class="fab fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/tain%C3%A1-rocha-93237a77/) 
+
+<i class="fas fa-blog"></i> [Website](https://github.com/Tai-Rocha)
+
+<i class="fab fa-twitter"></i> [Twitter](https://twitter.com/Tai_Rocha_)
 
 
-Teaching {#teachingr}
---------------------------------------------------------------------------------
 
-<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
+<!-- Teaching {#teachingr} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
+<!-- <i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/). -->
+
+<!-- <i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/). -->
 
 
-Programming Skills {#skills}
+Skills {#skills}
 --------------------------------------------------------------------------------
 
 <i class="fab fa-r-project"></i> `R`
@@ -139,14 +152,14 @@ Programming Skills {#skills}
 
 
 
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
+<!-- Disclaimer {#disclaimer} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
+<!-- This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html). -->
 
-Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
+<!-- Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume).  -->
 
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
+<!-- Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf).  -->
 
 
 Main
@@ -155,9 +168,11 @@ Main
 Tainá Rocha {#title}
 --------------------------------------------------------------------------------
 
+<div style="text-align: justify"> I am a researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and researches comprise: __1.__ Analysis of climate data and land use and land cover data under different scenarios of climate change, __2.__ Spatial analysisof species diversity (alpha and beta diversity), __3.__ Ecological niche models/speciesdistribution models and other niche analyses to assess the impacts of global change onbiodiversity, __4.__ Biogeographical patterns and evolutionary history in the Neotropics.Note:I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
+
 ```{r}
 # Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("intro") 
+#CV %<>% print_text_block("intro") 
 ```
 
 
@@ -190,7 +205,7 @@ CV %<>% print_text_block('industy_experience_aside')
 :::
 
 ```{r}
-CV %<>% print_section('industry_positions')
+#CV %<>% print_section('industry_positions')
 ```
 
 <!-- These breaks just force a new page so section doesnt get cut off -->
@@ -218,21 +233,21 @@ Selected Data Science Writing {data-icon=chart-line}
 
 ::: aside
 ```{r}
-CV %<>% print_text_block('data_science_writing_aside')
+#CV %<>% print_text_block('data_science_writing_aside')
 ```
 :::
 
 ```{r}
-CV %<>% print_section('data_science_writings')
+#CV %<>% print_section('data_science_writings')
 ```
 
 
 
-Selected Press (About)  {data-icon=newspaper}
+<!-- Selected Press (About)  {data-icon=newspaper} -->
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('about_me_press')
+#CV %<>% print_section('about_me_press')
 ```
 
 
@@ -240,11 +255,11 @@ CV %<>% print_section('about_me_press')
 <br>
 
 
-Selected Press (By)  {data-icon=newspaper}
+<!-- Selected Press (By)  {data-icon=newspaper} -->
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('by_me_press')
+#CV %<>% print_section('by_me_press')
 ```
 
 
@@ -262,3 +277,13 @@ CV %<>% print_section('academic_articles')
 CV %<>% print_links()
 ```
 
+::: aside
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R packages [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
+
+Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
+
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
+:::
