@@ -53,7 +53,9 @@ CV <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1MUKWLJtWwxwiAsSwOghy1tkq41rTp9Ivt6y3LVx2JTI/edit#gid=917338460",  
   pdf_mode = params$pdf_mode
 )
-#CV$entries_data <- CV$entries_data %>% dplyr::filter(in_resume == TRUE)
+
+CV$entries <- CV$entries %>% dplyr::filter(in_resume == TRUE)
+
 ```
 
 
@@ -76,25 +78,16 @@ Aside
 knitr::include_graphics("images/CV_profile.jpg")
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
-#datadrivencv::build_network_logo(CV$entries_data) Foto aqui 
+#datadrivencv::build_network_logo(CV$entries_data) Foto aqui
 ```
 
 ```{r}
-if(params$pdf_mode){
-#   cat("View this CV online with links at https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/")
-# } else {
+ if(params$pdf_mode){
+#  cat("View this CV online with links at https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/")
+#  } else {
   cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/cv.pdf).")
 }
 ```
-
-```{r}
-# if(params$pdf_mode){
-#   cat("View this CV online with links at _Tai-Rocha.me/Tai-Rocha_CV.github.io/_")
-# } else {
-#   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/Teste_datadriven.pdf)")
-#}
-```
-
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -114,16 +107,6 @@ Contact {#contact}
 <i class="fas fa-blog"></i> [Website](https://github.com/Tai-Rocha)
 
 <i class="fab fa-twitter"></i> [Twitter](https://twitter.com/Tai_Rocha_)
-
-
-
-<!-- Teaching {#teachingr} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- <i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/). -->
-
-<!-- <i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/). -->
-
 
 Skills {#skills}
 --------------------------------------------------------------------------------
@@ -152,25 +135,6 @@ knitr::include_graphics("images/QGIS.png")
 knitr::include_graphics("images/ARCGIS.png")
 ``` 
 
-
-<!-- <i class="fab fa-html5"></i> `HTML` -->
-
-<!-- <i class="fab fa-css3-alt"></i> `CSS` -->
-
-
-
-
-
-<!-- Disclaimer {#disclaimer} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html). -->
-
-<!-- Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume).  -->
-
-<!-- Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf).  -->
-
-
 Main
 ================================================================================
 
@@ -179,13 +143,6 @@ Tainá Rocha {#title}
 
 <div style="text-align: justify"> I am a researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and researches comprise: __1.__ Analysis of climate data and land use and land cover data under different scenarios of climate change, __2.__ Spatial analysisof species diversity (alpha and beta diversity), __3.__ Ecological niche models/speciesdistribution models and other niche analyses to assess the impacts of global change onbiodiversity, __4.__ Biogeographical patterns and evolutionary history in the Neotropics.Note:I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
 
-```{r}
-# Note the special double pipe so we modify the CV object in place
-#CV %<>% print_text_block("intro") 
-```
-
-
-
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
@@ -193,30 +150,15 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-
-
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('research_positions')
 ```
-
-
-
-<!-- <!-- Industry Experience {data-icon=suitcase} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- CV %<>% print_text_block('industy_experience_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-
-```{r}
-#CV %<>% print_section('industry_positions')
-```
-
+<br>
+<br>
+<br>
 <!-- These breaks just force a new page so section doesnt get cut off -->
 
 
@@ -240,47 +182,106 @@ Selected Publications {data-icon=book}
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
+<br>
+<br>
+<br>
 
-
-
-Selected Talks & Scientific communication  {data-icon=bullhorn}
+Member of Examination Committee  {data-icon=newspaper} 
 --------------------------------------------------------------------------------
 
+<!-- ```{r} -->
+<!-- #CV %<>% print_section('committee') -->
+<!-- ``` -->
+### Wallacean knowledge shortfall of mammals inthe Central Corridor of the Atlantic Forest
+
+**Final undergraduate committee**. Student: Inês Motta Comarella. Advisor: Francisco Candido Cardoso Barreto. Institution: UFES
+
+ES, Brazil
+
+2021
+
+
+### Impacts on the food behavior of birds in the urban, semi-urban and rural environment in the municipal of Capanema, Pará
+
+**Final undergraduate committee**. Student: Luana Gabriela Costa Bezerra. Advisor: Breno Barros. Institution: UFRA
+
+PA, Brazil
+
+2021
+
+### Modeling species dis-tribution of plant species as tool for assessing the impacts of climate changes andprogress of Sustainable Development Goals (SDGs) 13 and 15 in Caatinga biome
+
+**Master’s qualifying examination**. Student: Lucas Peixoto Teixeira. Advisor: Marcelo Freire Moro. Institution: UFC
+
+CE, Brazil
+
+2021
+
+
+### Strategies for conservationof endemic and threatened species: Hindsia glabra K.Schum E Aosa uleana (Urb.Gilg) Weigend
+
+**Master’s project monitoring committee**. Student: Bárbara Piovani Luz Aieta Afonso.  Supervisor: Marinez Ferreira de Siqueira. Institution: ENBT/JBRJ
+
+RJ, Brazil
+
+2020
+
+### Seabird habitat use and its association offoraging with Guiana dolphin (Sotalia guianensis) in Sepetiba Bay (2018).
+
+**Undergraduate monitoring committee**. Student:Leonardo Gomes Pacheco de Sá. Advisor: Maria Alice dos Santos Alves. Co-advisor: Rodrigo Hipolito Tardin Oliveira. Institution: UFRJ
+
+RJ, Brazil
+
+2018
+
+
+
+Talks & Scientific communication  {data-icon=bullhorn}
+--------------------------------------------------------------------------------
 ::: aside
 ```{r}
 CV %<>% print_text_block('data_science_writing_aside')
 ```
 :::
 
-```{r}
-CV %<>% print_section('data_science_writings')
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_section('talks') -->
+<!-- ``` -->
+
+### Global land-use and land-cover data: historical, current and future scenarios 
+Open Life Science program ([OLS-2](https://openlifesci.org/ols-2/projects-participants/#participants))       | [Slides](https://tai-rocha.github.io/OLS_2_Tai-Rocha.github.io/#1)
+
+Virtual 
+
+2020
+
+### Challenges of digital transformation in teaching and research </b>Slides will soon available
+
+Rede Nacional de Ensino e Pesquisa (RNP) 
+
+DF, Brazil 
+
+2019
 
 
 
 Selected Events  {data-icon=address-card-o}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('about_me_press')
-```
-
-
-<!-- <br> -->
-<!-- <br> -->
-
-
-<!-- <!-- Selected Press (By)  {data-icon=newspaper} --> 
-<!-- -------------------------------------------------------------------------------- -->
-
 <!-- ```{r} -->
-<!-- #CV %<>% print_section('by_me_press') -->
+<!-- CV %<>% print_section('events') -->
 <!-- ``` -->
+
+
+<!-- <br> -->
+<!-- <br> -->
+
 
 
 ```{r}
 CV %<>% print_links()
 ```
+
 
 ::: aside
 Disclaimer {#disclaimer}
@@ -292,3 +293,4 @@ Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beat
 
 Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
 :::
+
