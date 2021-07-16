@@ -150,6 +150,53 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+Complementary Training Courses {data-icon=book}
+--------------------------------------------------------------------------------
+
+### Flexdashboard: Interactive panels using R
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-goiania/events/277628997/) Analyze. Share. Reproduce. Your data tells a story. Use rmarkdown and Flexdashboard and transform your analysis into high-quality documents, reports, presentations and dashboards.
+
+Online
+
+2021
+
+
+### Managing tables  with dplyr R package
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-talca/events/277554926/) The main functions of dplyr for handling tables.
+
+Online
+
+2021
+
+### Regular expressions (regex) for data cleaning and transforming
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-talca/events/276426201/) Regex as part of the data cleaning and transformation process using Tidyverse R packages.
+
+Online
+
+2021
+
+
+### Open Life Science program
+
+[OLS-2](https://openlifesci.org/ols-2). Training for early stage researchers and young leaders interested in furthering their Open Science skills.
+
+Online 
+
+2020
+
+
+### Writing academic manuscripts using rmarkdown
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-rio/events/273511481/) This training provided the different steps and tools for writing academic manuscripts or technical reports in an automated and reproducible way using R and rmarkdown.
+
+Online
+
+2020
+
+
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
@@ -176,7 +223,7 @@ CV %<>% print_section('teaching_positions')
 ```
 
 
-Selected Publications {data-icon=book}
+Selected Publications {data-icon=file-text}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -186,7 +233,7 @@ CV %<>% print_section('academic_articles')
 <br>
 <br>
 
-Member of Examination Committee  {data-icon=newspaper} 
+Member of Examination Committee  {data-icon=users} 
 --------------------------------------------------------------------------------
 
 <!-- ```{r} -->
@@ -236,7 +283,7 @@ RJ, Brazil
 
 
 
-Talks & Scientific communication  {data-icon=bullhorn}
+Selected Talks & Scientific communication  {data-icon=bullhorn}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r}
@@ -249,38 +296,48 @@ CV %<>% print_text_block('data_science_writing_aside')
 <!-- ``` -->
 
 ### Global land-use and land-cover data: historical, current and future scenarios 
-Open Life Science program ([OLS-2](https://openlifesci.org/ols-2/projects-participants/#participants))       | [Slides](https://tai-rocha.github.io/OLS_2_Tai-Rocha.github.io/#1)
+Final presentation in [OLS-2](https://openlifesci.org/ols-2/projects-participants/#participants)|[Slides](https://tai-rocha.github.io/OLS_2_Tai-Rocha.github.io/#1)
 
-Virtual 
+Online 
 
 2020
 
-### Challenges of digital transformation in teaching and research </b>Slides will soon available
-
-Rede Nacional de Ensino e Pesquisa (RNP) 
-
-DF, Brazil 
-
-2019
 
 
-
-Selected Events  {data-icon=address-card-o}
+Selected Events  {data-icon=calendar-check-o}
 --------------------------------------------------------------------------------
 
 <!-- ```{r} -->
 <!-- CV %<>% print_section('events') -->
 <!-- ``` -->
 
+### V International Seminar on Statistics with R
+
+[V SER](http://ser.uff.br/) event was recognized by the R Foundation (2018) for its pioneering in Latin America in bringing together an expressive number of R users| Participation as a listener.
+
+Online
+
+2021
+
+
+
+### Forum of Rede Nacional de Ensino e Pesquisa
+
+[RNP 2019](https://www.rnp.br/en/news/challenges-digital-transformation-teaching-and-research-will-lead-debates-2019-rnp-forum). Challenges of digital transformation in teaching and research will lead debates at 2019 RNP Forum| Participation as Guest speaker.
+
+DF, Brazil 
+
+2019
+
 
 <!-- <br> -->
 <!-- <br> -->
 
 
 
-```{r}
-CV %<>% print_links()
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_links() -->
+<!-- ``` -->
 
 
 ::: aside
