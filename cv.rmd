@@ -239,11 +239,20 @@ Member of Examination Committee  {data-icon=users}
 <!-- ```{r} -->
 <!-- #CV %<>% print_section('committee') -->
 <!-- ``` -->
+
+### Leave out or put in - selecting input data to improve ecological niche models applied to conservation and climate change analysis: an approach using the Atlantic Goliath Grouper, Epinephelus itajara (Perciformes)
+
+**Final Master committee**. Student: Eduardo Motta Carelli Minsky. Advisor: MAria Lucia Lorini. Institution: UNIRIO
+
+UNIRIO-RJ, Brazil
+
+2021
+
 ### Wallacean knowledge shortfall of mammals inthe Central Corridor of the Atlantic Forest
 
 **Final undergraduate committee**. Student: Inês Motta Comarella. Advisor: Francisco Candido Cardoso Barreto. Institution: UFES
 
-ES, Brazil
+UFES-ES, Brazil
 
 2021
 
@@ -252,7 +261,7 @@ ES, Brazil
 
 **Final undergraduate committee**. Student: Luana Gabriela Costa Bezerra. Advisor: Breno Barros. Institution: UFRA
 
-PA, Brazil
+UFRA-PA, Brazil
 
 2021
 
@@ -260,7 +269,7 @@ PA, Brazil
 
 **Master’s qualifying examination**. Student: Lucas Peixoto Teixeira. Advisor: Marcelo Freire Moro. Institution: UFC
 
-CE, Brazil
+UFC-CE, Brazil
 
 2021
 
@@ -269,7 +278,7 @@ CE, Brazil
 
 **Master’s project monitoring committee**. Student: Bárbara Piovani Luz Aieta Afonso.  Supervisor: Marinez Ferreira de Siqueira. Institution: ENBT/JBRJ
 
-RJ, Brazil
+ENBT-RJ, Brazil
 
 2020
 
@@ -277,7 +286,7 @@ RJ, Brazil
 
 **Undergraduate monitoring committee**. Student:Leonardo Gomes Pacheco de Sá. Advisor: Maria Alice dos Santos Alves. Co-advisor: Rodrigo Hipolito Tardin Oliveira. Institution: UFRJ
 
-RJ, Brazil
+UFRJ-RJ, Brazil
 
 2018
 
@@ -302,6 +311,13 @@ Online
 
 2020
 
+### Connecting data and experiences: Biodiversity, Information and Communication Technologies in Brazil
+
+[RNP 2019](https://www.rnp.br/en/news/challenges-digital-transformation-teaching-and-research-will-lead-debates-2019-rnp-forum) | [Slides](https://tai-rocha.github.io/Talk_Slides_RNP_2019.github.io/#1)
+
+DF, Brazil 
+
+2019
 
 
 Selected Events  {data-icon=calendar-check-o}
