@@ -81,6 +81,7 @@ knitr::include_graphics("images/CV_profile.jpg")
 #datadrivencv::build_network_logo(CV$entries_data) Foto aqui
 ```
 
+
 ```{r}
  if(params$pdf_mode){
 #  cat("View this CV online with links at https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/")
