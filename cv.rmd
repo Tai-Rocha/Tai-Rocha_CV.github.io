@@ -125,6 +125,9 @@ knitr::include_graphics("images/TeX.png")
 
 <i class="fa fa-linux" aria-hidden="true"></i>
  `Linux OS`
+ 
+<i class="fa fa-desktop" aria-hidden="true"></i>
+ `Virtual Machines`
 
 ```{r echo=FALSE, out.width="13%"}
 knitr::include_graphics("images/QGIS.png")
@@ -141,7 +144,7 @@ Main
 Tainá Rocha {#title}
 --------------------------------------------------------------------------------
 
-<div style="text-align: justify"> I am a researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and researches comprise: __1.__ Analysis of climate data and land use and land cover data under different scenarios of climate change, __2.__ Spatial analysisof species diversity (alpha and beta diversity), __3.__ Ecological niche models/speciesdistribution models and other niche analyses to assess the impacts of global change onbiodiversity, __4.__ Biogeographical patterns and evolutionary history in the Neotropics.Note:I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
+<div style="text-align: justify"> I am a researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and researches comprise: __1.__ Analysis of climate data and land use and land cover data under different scenarios of climate change, __2.__ Spatial analysisof species diversity (alpha and beta diversity), __3.__ Ecological niche models/speciesdistribution models and other niche analyses to assess the impacts of global change onbiodiversity, __4.__ Biogeographical patterns and evolutionary history in the Neotropics. <br/> __Note:__ I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -362,7 +365,7 @@ Disclaimer {#disclaimer}
 
 This resume was made with the R packages [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
-Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
+Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io). 
 
 Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
 :::
