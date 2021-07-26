@@ -74,7 +74,7 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r, out.width="70%", fig.align='center'}
+```{r, out.width="60%", fig.align='center'}
 knitr::include_graphics("images/CV_profile.jpg")
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
