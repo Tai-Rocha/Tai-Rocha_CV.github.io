@@ -374,6 +374,6 @@ This resume was made with the R packages [**pagedown**](https://github.com/rstud
 
 Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io). 
 
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/blob/main/index.pdf). 
 :::
 
