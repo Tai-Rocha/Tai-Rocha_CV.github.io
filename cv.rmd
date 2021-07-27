@@ -117,7 +117,7 @@ Main
 Tainá Rocha {#title}
 --------------------------------------------------------------------------------
 
-<div style="text-align: justify"> I am a researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and work include: __1.__ Analysis of climate data and land-use and land-cover data under different scenarios of climate change, __2.__ Spatial analysis of species diversity (alpha and beta diversity), __3.__ Ecological niche models/species distribution models and other niche analyses to assess the impacts of global change on biodiversity, __4.__ Biogeographic patterns and evolutionary history in the Neotropics. <br/> __Note:__ I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
+<div style="text-align: justify"> I am a researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and work include: __1.__ Analysis of climate data and land-use and land-cover data under different scenarios of climate change, __2.__ Spatial analysis of species diversity (alpha and beta diversity), __3.__ Ecological niche models/ species distribution models and other niche analyses to assess the impacts of global change on biodiversity, __4.__ Biogeographic patterns and evolutionary history in the Neotropics. <br/> __Note:__ I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -146,7 +146,7 @@ Online
 
 2021
 
-### Regular expressions (regex) for data cleaning and transforming
+### Regular expressions (regex) for data cleaning
 
 [<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-talca/events/276426201/) Regex as part of the data cleaning and transformation process using Tidyverse R packages.
 
@@ -314,6 +314,14 @@ CV %<>% print_text_block('data_science_writing_aside')
 <!-- ```{r} -->
 <!-- CV %<>% print_section('talks') -->
 <!-- ``` -->
+
+### Open tools and databases for analyzing biodiversity in space and time  
+
+Week curator at [Biodiversity in Focus](https://twitter.com/biodivfoco?lang=en) | [Webpage](https://tai-rocha.github.io/Curadoria_Biodiversidade_em_Foco.github.io/) for the content shared
+
+Online 
+
+2020
 
 ### Global land-use and land-cover data: historical, current and future scenarios 
 Final presentation in [OLS-2](https://openlifesci.org/ols-2/projects-participants/#participants)|[Slides](https://tai-rocha.github.io/OLS_2_Tai-Rocha.github.io/#1)
