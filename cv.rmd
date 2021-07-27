@@ -315,7 +315,7 @@ CV %<>% print_text_block('data_science_writing_aside')
 <!-- CV %<>% print_section('talks') -->
 <!-- ``` -->
 
-### Open tools and databases for analyzing biodiversity in space and time  
+### Open tools and databases to analyze biodiversity in space and time 
 
 Week curator at [Biodiversity in Focus](https://twitter.com/biodivfoco?lang=en) | [Webpage](https://tai-rocha.github.io/Curadoria_Biodiversidade_em_Foco.github.io/) for the content shared
 
