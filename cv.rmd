@@ -355,13 +355,6 @@ Brasília, Brazil
 2019
 
 <br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
 
 <!-- ```{r} -->
 <!-- CV %<>% print_links() -->
