@@ -117,7 +117,7 @@ Main
 Tainá Rocha {#title}
 --------------------------------------------------------------------------------
 
-<div style="text-align: justify"> I am a researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and work include: __1.__ Analysis of climate data and land-use and land-cover data under different scenarios of climate change, __2.__ Spatial analysis of species diversity (alpha and beta diversity), __3.__ Ecological niche models/ species distribution models and other niche analyses to assess the impacts of global change on biodiversity, __4.__ Biogeographic patterns and evolutionary history in the Neotropics. <br/> __Note:__ I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
+<div style="text-align: justify"> I am a Brazilian researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and work include: __1.__ Analysis of climate data and land-use and land-cover data under different scenarios of climate change, __2.__ Spatial analysis of species diversity (alpha and beta diversity), __3.__ Ecological niche models/ species distribution models and other niche analyses to assess the impacts of global change on biodiversity, __4.__ Biogeographic patterns and evolutionary history in the Neotropics. <br/> __Note:__ I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -361,6 +361,28 @@ Online
 Brasília, Brazil 
 
 2019
+
+<br> 
+
+### Workshop Evolutionary Rescue
+
+The [workshop](https://www.eecbio.ufg.br/p/22558-oficinas-de-pesquisa-workshops) was organized by [José Alexandre
+Diniz-Filho](https://scholar.google.com/citations?user=scYHGuQAAAAJ&hl=en) professor. The general concept of "evolutionary rescue" refers to the
+possibility of rapid Darwinian adaptation of populations under a strong effect
+of environmental stress. Specifically, in this workshop we discussed: 1)
+the concept of evolutionary rescue and the theoretical models in evolutionary
+genetics that have been used to study this process, and; 2) the integration
+of these theoretical models with ecological niche modelling techniques, in a
+context of climate change and anthropogenic changes in the landscape, 3)
+their implications for the conservation of diversity in the face of these changes,
+at different spatial scales. Analyses were implemented for some species of
+amphibians, such as model organisms, and the possibilities of expanding these
+analyses to a global scale were discussed, and several sub-projects to be carried
+out in the coming years on this topic were defined. 20h
+
+Goiânia, Brazil 
+
+2018
 
 <br> 
 
