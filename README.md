@@ -1,3 +1,3 @@
-# Tai-Rocha_CV.github.io
+#### This resume was made with the R packages [pagedown](https://github.com/rstudio/pagedown) and [datadrivencv](http://nickstrayer.me/datadrivencv/index.html).
 
-### This is a repo for my [CV](https://tai-rocha.github.io/Tai-Rocha_CV.github.io/)
+#### [Link for my CV available here](https://tai-rocha.github.io/Tai-Rocha_CV.github.io/)
