@@ -94,21 +94,23 @@ knitr::include_graphics("images/CV_profile.jpg")
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-<i class="far fa-envelope"></i> taina013@gmail.com
 
 <i class="fa fa-github"></i> [Github](https://github.com/Tai-Rocha)
 
-<i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0001-6874-2447)
-
 <i class="fas fa-eye"></i> [Lattes](http://lattes.cnpq.br/3678449749062447) 
-
-<i class="fab fa-researchgate"></i> [Researchgate](https://www.researchgate.net/profile/Taina-Rocha-3) 
 
 <i class="fab fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/tain%C3%A1-rocha-93237a77/) 
 
-<i class="fas fa-blog"></i> [Website](https://tainaweb-en.netlify.app/)
+<i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0001-6874-2447)
+
+<i class="fab fa-researchgate"></i> [Researchgate](https://www.researchgate.net/profile/Taina-Rocha-3) 
+
+<i class="far fa-envelope"></i> taina013@gmail.com
 
 <i class="fab fa-twitter"></i> [Twitter](https://twitter.com/Tai_Rocha_)
+
+<i class="fas fa-blog"></i> [Website](https://tainaweb-en.netlify.app/)
+
 
 
 
