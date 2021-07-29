@@ -84,11 +84,12 @@ knitr::include_graphics("images/CV_profile.jpg")
 
 ```{r}
  if(params$pdf_mode){
-  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/cv.pdf).")
+  cat("Online version available at https://tai-rocha.github.io/Tai-Rocha_CV.github.io/")
   } else {
   cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/cv.pdf).")
 }
 ```
+
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -119,7 +120,7 @@ Tainá Rocha {#title}
 
 <div style="text-align: justify"> I am a Brazilian researcher working on patterns of biodiversity distribution, focusing on the impacts of global change (climate change and land-use and land-cover change). My recent interests and work include: __1.__ Analysis of climate data and land-use and land-cover data under different scenarios of climate change, __2.__ Spatial analysis of species diversity (alpha and beta diversity), __3.__ Ecological niche models/ species distribution models and other niche analyses to assess the impacts of global change on biodiversity, __4.__ Biogeographic patterns and evolutionary history in the Neotropics. <br/> __Note:__ I use open-source tools and platforms. I am interested in good practices about open science (open databases, open software, etc.), good workflows, reproducibility and FAIR principles. </div>
 
-Education {data-icon=graduation-cap data-concise=true}
+Education {data-icon=user-graduate data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -234,6 +235,35 @@ CV %<>% print_section('teaching_positions')
 ```
 
 
+Mentoring Experience {data-icon=user-friends}
+--------------------------------------------------------------------------------
+
+
+### Co-advisor undergraduate
+
+Beta diversity of mountains altitudinal gradient in the State of Rio de Janeiro. Student: Felipe Meira. Advisor:
+Marinez Ferreira de Siqueira. Instituton: Pontifical Catholic University of Rio de Janeiro | 2020 - present <br> <br>
+Influence of the collection effort on the quantification of the terrestrial vertebrate richness in the Atlantic Forest.
+Student: Caroline Vital da Solidade. Advisor: Mariana Moncassim Vale. Institution: Federal University of Rio de Janeiro | 2018- 2019 <br> <br>
+
+RJ, Brazil
+
+2018 - Present
+
+
+### Technical Advisor
+
+Geographic Information System (GIS). Student: Tainá Cunha Udine Bernardino. Institution: Federal University of
+Rio de Janeiro, Brazil. <br> <br>
+Geographic Information System (GIS). Student: João Pedro Sousa Cerqueira Cruz. Institution: Federal University of
+Rio de Janei
+
+RJ, Brazil
+
+2019
+
+
+
 Selected Publications {data-icon=file-text}
 --------------------------------------------------------------------------------
 
@@ -244,7 +274,35 @@ CV %<>% print_section('academic_articles')
 <br>
 <br>
 
-Member of Examination Committee  {data-icon=users} 
+
+Periodical reviewer {data-icon="file-contract"}
+--------------------------------------------------------------------------------
+
+### [Frontiers in Ecology and Evolution](https://www.frontiersin.org/journals/ecology-and-evolution)
+
+One review
+
+Online
+
+2021
+
+### [Perspectives in Ecology and Conservation](https://www.journals.elsevier.com/perspectives-in-ecology-and-conservation)
+
+Two reviews
+
+Online
+
+2020 - 2021
+
+### [Oecologia Australis](https://revistas.ufrj.br/index.php/oa). 
+
+Three reviews 
+
+Online
+
+2019 - 2020
+
+Committee Member   {data-icon=users} 
 --------------------------------------------------------------------------------
 
 <!-- ```{r} -->
