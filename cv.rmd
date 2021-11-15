@@ -400,7 +400,7 @@ Complementary Training Courses {data-icon=book}
 
 ### R for Data Science II 
 
-[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-goiania/events/277628997/) This course aims to deepen the essential concepts of programming in R for Data Science.  We will present intermediate and advanced data manipulation techniques from real data analysis problems, including texts and dates, and functional programming concepts. 18 h
+[<i class="fa fa-meetup"></i>](https://curso-r.github.io/202111-r4ds-2/) This course aims to deepen the essential concepts of programming in R for Data Science.  We will present intermediate and advanced data manipulation techniques from real data analysis problems, including texts and dates, and functional programming concepts. 18 h
 
 Online 
 
