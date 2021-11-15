@@ -20,7 +20,7 @@ meta() %>%
       "CV made with the packages RMarkdown, pagedown, datadrivencv and googlesheet4"
     ),
     url = "https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/cv.html",
-    image = "https://beatrizmilz.github.io/resume/img/share-card.png",
+    #image = "https://beatrizmilz.github.io/resume/img/share-card.png",
     image_alt = paste(
       "Tainá Rocha CV"
     ),
@@ -129,52 +129,12 @@ Education {data-icon=user-graduate data-concise=true}
 CV %<>% print_section('education')
 ```
 
-Complementary Training Courses {data-icon=book}
+Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
-### Flexdashboard: Interactive panels using R
-
-[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-goiania/events/277628997/) Analyze. Share. Reproduce. Your data tells a story. Use rmarkdown and Flexdashboard and transform your analysis into high-quality documents, reports, presentations and dashboards.
-
-Online
-
-2021
-
-
-### Managing tables  with dplyr R package
-
-[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-talca/events/277554926/) The main functions of dplyr for handling tables.
-
-Online
-
-2021
-
-### Regular expressions (regex) for data cleaning
-
-[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-talca/events/276426201/) Regex as part of the data cleaning and transformation process using Tidyverse R packages.
-
-Online
-
-2021
-
-
-### Open Life Science program
-
-[OLS-2](https://openlifesci.org/ols-2). Training for early stage researchers and young leaders interested in furthering their Open Science skills.
-
-Online 
-
-2020
-
-
-### Writing academic manuscripts using rmarkdown
-
-[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-rio/events/273511481/) This training provided the different steps and tools for writing academic manuscripts or technical reports in an automated and reproducible way using R and rmarkdown.
-
-Online
-
-2020
-
+```{r}
+CV %<>% print_section('research_positions')
+```
 
 ::: aside
 
@@ -209,18 +169,6 @@ knitr::include_graphics("images/QGIS.png")
 knitr::include_graphics("images/ARCGIS.png")
 ``` 
 :::
-
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('research_positions')
-```
-<br>
-<br>
-<br>
-<!-- These breaks just force a new page so section doesnt get cut off -->
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -267,6 +215,14 @@ CV %<>% print_section('academic_articles')
 
 Periodical reviewer {data-icon="file-contract"}
 --------------------------------------------------------------------------------
+
+### [Conservation Science and Practice](https://conbio.onlinelibrary.wiley.com/journal/25784854) 
+
+One review
+
+Online
+
+2021
 
 ### [Frontiers in Ecology and Evolution](https://www.frontiersin.org/journals/ecology-and-evolution)
 
@@ -439,11 +395,64 @@ Goiânia, Brazil
 
 <br> 
 
+Complementary Training Courses {data-icon=book}
+--------------------------------------------------------------------------------
+
+### R for Data Science II 
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-goiania/events/277628997/) This course aims to deepen the essential concepts of programming in R for Data Science.  We will present intermediate and advanced data manipulation techniques from real data analysis problems, including texts and dates, and functional programming concepts. 18 h
+
+Online 
+
+Present - Nov 2021
+
+### Flexdashboard: Interactive panels using R
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-goiania/events/277628997/) Analyze. Share. Reproduce. Your data tells a story. Use rmarkdown and Flexdashboard and transform your analysis into high-quality documents, reports, presentations and dashboards. 4 h
+
+Online 
+
+Mar 2021
+
+
+### Managing tables  with dplyr R package
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-talca/events/277554926/) The main functions of dplyr for handling tables. 4 h
+
+Online
+
+Feb 2021
+
+### Regular expressions (regex) for data cleaning
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-talca/events/276426201/) Regex as part of the data cleaning and transformation process using Tidyverse R packages. 4 h
+
+Online
+
+Feb 2021
+
+
+### Open Life Science program
+
+[OLS-2](https://openlifesci.org/ols-2). Training for early stage researchers and young leaders interested in furthering their Open Science skills.
+
+Online 
+
+Aug 2020 - Dec 2020
+
+
+### Writing academic manuscripts using rmarkdown
+
+[<i class="fa fa-meetup"></i>](https://www.meetup.com/pt-BR/rladies-rio/events/273511481/) This training provided the different steps and tools for writing academic manuscripts or technical reports in an automated and reproducible way using R and rmarkdown. 4 h
+
+Online
+
+Sep 2020
 <!-- ```{r} -->
 <!-- CV %<>% print_links() -->
 <!-- ``` -->
 
-list of abbreviations  {data-icon=list}
+List of Institutions Abbreviations  {data-icon=list}
 --------------------------------------------------------------------------------
 
 ### ENBT
@@ -511,6 +520,12 @@ Espírito Santo, Brasil
 [Universidade Federal do Pará](https://portal.ufpa.br/)
 
 Pará, Brasil
+
+### UFPE 
+
+[Universidade Federal do Pernambuco](http://www.ppgbv.com.br/o-programa/)
+
+Pernambuco, Brasil
 
 ### UFRA 
 
