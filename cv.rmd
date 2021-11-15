@@ -241,18 +241,6 @@ Mentoring Experience {data-icon=user-friends}
 --------------------------------------------------------------------------------
 
 
-### Co-advisor undergraduate
-
-Beta diversity of mountains altitudinal gradient in the State of Rio de Janeiro. Student: Felipe Meira. Advisor:
-Marinez Ferreira de Siqueira. Instituton: Pontifical Catholic University of Rio de Janeiro | 2020 - present <br> <br>
-Influence of the collection effort on the quantification of the terrestrial vertebrate richness in the Atlantic Forest.
-Student: Caroline Vital da Solidade. Advisor: Mariana Moncassim Vale. Institution: Federal University of Rio de Janeiro | 2018- 2019 <br> <br>
-
-RJ, Brazil
-
-2018 - Present
-
-
 ### Technical Advisor
 
 Geographic Information System (GIS). Student: Tainá Cunha Udine Bernardino. Institution: Federal University of
