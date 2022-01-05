@@ -213,7 +213,7 @@ CV %<>% print_section('academic_articles')
 <br>
 
 
-Periodical reviewer {data-icon="file-contract"}
+Journal Reviewer  {data-icon="file-contract"}
 --------------------------------------------------------------------------------
 
 ### [Conservation Science and Practice](https://conbio.onlinelibrary.wiley.com/journal/25784854) 
