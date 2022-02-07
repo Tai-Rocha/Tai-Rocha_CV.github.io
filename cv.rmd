@@ -194,7 +194,7 @@ Mentoring Experience {data-icon=user-friends}
 Geographic Information System (GIS). Student: Tainá Cunha Udine Bernardino. Institution: Federal University of
 Rio de Janeiro, Brazil. <br> <br>
 Geographic Information System (GIS). Student: João Pedro Sousa Cerqueira Cruz. Institution: Federal University of
-Rio de Janei
+Rio de Janeiro
 
 RJ, Brazil
 
@@ -259,7 +259,7 @@ Committee Member   {data-icon=users}
 
 **Final Master committee**. Student: Eduardo Motta Carelli Minsky. Advisor: Maria Lucia Lorini. Institution: UNIRIO
 
-UNIRIO, Brazil
+[UNIRIO](http://www.unirio.br/), Brazil
 
 2021
 
@@ -267,7 +267,7 @@ UNIRIO, Brazil
 
 **Final undergraduate committee**. Student: Inês Motta Comarella. Advisor: Francisco Candido Cardoso Barreto. Institution: UFES
 
-UFES, Brazil
+[UFES](https://www.ufes.br/), Brazil
 
 2021
 
@@ -276,7 +276,7 @@ UFES, Brazil
 
 **Final undergraduate committee**. Student: Luana Gabriela Costa Bezerra. Advisor: Breno Barros. Institution: UFRA
 
-UFRA, Brazil
+[UFRA](https://capanema.ufra.edu.br/), Brazil
 
 2021
 
@@ -284,7 +284,7 @@ UFRA, Brazil
 
 **Master’s qualifying examination**. Student: Lucas Peixoto Teixeira. Advisor: Marcelo Freire Moro. Institution: UFC
 
-UFC, Brazil
+[UFC](https://www.ufc.br/), Brazil
 
 2021
 
@@ -293,7 +293,7 @@ UFC, Brazil
 
 **Master’s project monitoring committee**. Student: Bárbara Piovani Luz Aieta Afonso.  Supervisor: Marinez Ferreira de Siqueira. Institution: ENBT/JBRJ
 
-ENBT, Brazil
+[ENBT-JBRJ](https://www.gov.br/jbrj/pt-br/assuntos/educacao/escola-nacional-de-botanica-tropical-20-anos), Brazil, Brazil
 
 2020
 
@@ -301,7 +301,7 @@ ENBT, Brazil
 
 **Undergraduate monitoring committee**. Student:Leonardo Gomes Pacheco de Sá. Advisor: Maria Alice dos Santos Alves. Co-advisor: Rodrigo Hipolito Tardin Oliveira. Institution: UFRJ
 
-UFRJ, Brazil
+[UFRJ](https://ufrj.br/en/), Brazil
 
 2018
 
@@ -404,7 +404,7 @@ Complementary Training Courses {data-icon=book}
 
 Online 
 
-Present - Nov 2021
+Nov 2021- Jan 2022
 
 ### Flexdashboard: Interactive panels using R
 
@@ -451,136 +451,3 @@ Sep 2020
 <!-- ```{r} -->
 <!-- CV %<>% print_links() -->
 <!-- ``` -->
-
-List of Institutions Abbreviations  {data-icon=list}
---------------------------------------------------------------------------------
-
-### ENBT
-
-[Escola Nacional de Botânica Tropical](https://www.gov.br/jbrj/pt-br/assuntos/educacao/escola-nacional-de-botanica-tropical-20-anos)<br>
-
-Rio de Janeiro, Brazil
-
-### IECOS
-
-[Instituto de Estudos Costeiros](https://iecos.ufpa.br/)<br>
-
-Bragança-Pará, Brazil
-
-### IVB
-
-[Instituto Vital Brazil](http://www.vitalbrazil.rj.gov.br/index.html/)<br>
-
-Niterói-Rio de Janeiro, Brazil
-
-### JBRJ
-
-[Instituto de Pesquisas Jardim Botânico do Rio de Janeiro](https://www.gov.br/jbrj/pt-br/assuntos/capa-pesquisa)<br>
-
-Rio de Janeiro, Brazil
-
-### MPEG
-
-[Museu Parense Emílio Goeldi](https://www.museu-goeldi.br/)<br>
-
-Belém-Pará, Brazil
-
-### OLS 
-
-[Open Life Science](https://openlifesci.org/)
-
-Global
-
-### PUC-Rio
-
-[Pontifícia Universidade Católica do Rio de Janeiro](https://www.puc-rio.br/index.html)
-
-Rio de Janeiro, Brazil
-
-### RNP
-
-[Rede Nacional de Ensino e Pesquisa](https://www.rnp.br/en)
-
-Brazil
-
-### UFC 
-
-[Universidade Federal do Ceará](https://www.ufc.br/)
-
-Ceará, Brasil
-
-### UFES 
-
-[Universidade Federal do Espírito Santo](https://www.ufes.br/)
-
-Espírito Santo, Brasil
-
-### UFPA 
-
-[Universidade Federal do Pará](https://portal.ufpa.br/)
-
-Pará, Brasil
-
-### UFPE 
-
-[Universidade Federal do Pernambuco](http://www.ppgbv.com.br/o-programa/)
-
-Pernambuco, Brasil
-
-### UFRA 
-
-[Universidade Federal Rural da Amazônia](https://novo.ufra.edu.br/)
-
-Pará, Brasil
-
-### UFRJ 
-
-[Universidade Federal do Rio de Janeiro](https://ufrj.br/en/)
-
-Rio de Janeiro, Brazil
-
-### UNESA 
-
-[Universidade Estácio de Sá](https://estacio.br/)
-
-Rio de Janeiro, Brazil
-
-### UNIRIO
-
-[Universidade Federal do Estado do Rio de Janeiro](http://www.unirio.br/)
-
-Rio de Janeiro, Brazil
-
-### UVA 
-
-[Universidade Veiga de Almeida](https://www.uva.br/)
-
-Rio de Janeiro, Brazil
-
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-
-::: aside
-
-<!-- Disclaimer {#disclaimer} -->
-<!-- -------------------------------------------------------------------------------- -->
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-This resume was made with the R packages [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
-
-Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io). 
-
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/blob/main/cv.pdf). 
-:::
-
