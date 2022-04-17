@@ -216,6 +216,14 @@ CV %<>% print_section('academic_articles')
 Journal Reviewer  {data-icon="file-contract"}
 --------------------------------------------------------------------------------
 
+### [Acta Botanica Brasilica](https://acta.botanica.org.br/)
+
+One review
+
+Online
+
+2022
+
 ### [Conservation Science and Practice](https://conbio.onlinelibrary.wiley.com/journal/25784854) 
 
 One review
