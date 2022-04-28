@@ -171,43 +171,52 @@ knitr::include_graphics("images/ARCGIS.png")
 :::
 
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- CV %<>% print_text_block('teaching_experience_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-
-```{r}
-CV %<>% print_section('teaching_positions')
-```
-
-
-Mentoring Experience {data-icon=user-friends}
---------------------------------------------------------------------------------
-
-
-### Technical Advisor
-
-Geographic Information System (GIS). Student: Tainá Cunha Udine Bernardino. Institution: Federal University of
-Rio de Janeiro, Brazil. <br> <br>
-Geographic Information System (GIS). Student: João Pedro Sousa Cerqueira Cruz. Institution: Federal University of
-Rio de Janeiro
-
-RJ, Brazil
-
-2019
-
-
-
 Selected Publications {data-icon=file-text}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
+<br>
+<br>
+<br>
+
+Other publication types {data-icon=file-text}
+--------------------------------------------------------------------------------
+
+### [Forest land under different scenarios of future global change](https://zenodo.org/record/6502865#.YmsP43XMLiE)
+
+Global Dataset
+
+Online
+
+Apr 2022
+
+### Third Report- GREEN STATUS 
+
+GREEN STATUS Activity Progress Report for 10 Cactaceae species 
+
+Online
+
+Dec 2021
+
+### Second Report- GREEN STATUS 
+
+GREEN STATUS Activity Progress Report for 10 Cactaceae species
+
+online
+
+Oct 2021
+
+### First Report- GREEN STATUS  
+
+GREEN STATUS Activity Progress Report for 10 Cactaceae species
+
+Online
+
+Sep 2021
+
+
 <br>
 <br>
 <br>
@@ -313,6 +322,41 @@ Committee Member   {data-icon=users}
 
 2018
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+<!-- ::: aside -->
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('teaching_experience_aside') -->
+<!-- ``` -->
+<!-- ::: -->
+
+```{r}
+CV %<>% print_section('teaching_positions')
+```
+
+
+Mentoring Experience {data-icon=user-friends}
+--------------------------------------------------------------------------------
+
+
+### Technical Advisor
+
+Geographic Information System (GIS). Student: Tainá Cunha Udine Bernardino. Institution: Federal University of
+Rio de Janeiro, Brazil. <br> <br>
+Geographic Information System (GIS). Student: João Pedro Sousa Cerqueira Cruz. Institution: Federal University of
+Rio de Janeiro
+
+RJ, Brazil
+
+2019
 <br>
 <br>
 <br>
