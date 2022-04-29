@@ -279,13 +279,22 @@ Committee Member   {data-icon=users}
 <!-- #CV %<>% print_section('committee') -->
 <!-- ``` -->
 
+### Modelagem de nicho ambiental de espécies vegetais da Caatinga como ferramenta para avaliação dos impactos das mudanças climáticas e do progresso das ods’s 13 e 15 no bioma semiárido brasileiro
+
+**Final Master committee**. Student: Lucas Peixoto Teixeira <br>
+Advisor: Marcelo FreireMoro
+
+[UFC](http://www.prodema.ufc.br/index.php/pt-br/), Brazil
+
+Apr 2022
+
 ### Leave out or put in - selecting input data to improve ecological niche models applied to conservation and climate change analysis: an approach using the Atlantic Goliath Grouper, Epinephelus itajara (Perciformes)
 
 **Final Master committee**. Student: Eduardo Motta Carelli Minsky. Advisor: Maria Lucia Lorini. Institution: UNIRIO
 
 [UNIRIO](http://www.unirio.br/), Brazil
 
-2021
+Jun 2021
 
 ### Wallacean knowledge shortfall of mammals inthe Central Corridor of the Atlantic Forest
 
@@ -293,7 +302,7 @@ Committee Member   {data-icon=users}
 
 [UFES](https://www.ufes.br/), Brazil
 
-2021
+Jul 2021
 
 
 ### Impacts on the food behavior of birds in the urban, semi-urban and rural environment in the municipal of Capanema, Pará
@@ -302,7 +311,7 @@ Committee Member   {data-icon=users}
 
 [UFRA](https://capanema.ufra.edu.br/), Brazil
 
-2021
+Marc 2021
 
 ### Modeling species dis-tribution of plant species as tool for assessing the impacts of climate changes andprogress of Sustainable Development Goals (SDGs) 13 and 15 in Caatinga biome
 
@@ -310,7 +319,7 @@ Committee Member   {data-icon=users}
 
 [UFC](https://www.ufc.br/), Brazil
 
-2021
+Feb 2021
 
 
 ### Strategies for conservationof endemic and threatened species: Hindsia glabra K.Schum E Aosa uleana (Urb.Gilg) Weigend
@@ -319,7 +328,7 @@ Committee Member   {data-icon=users}
 
 [ENBT-JBRJ](https://www.gov.br/jbrj/pt-br/assuntos/educacao/escola-nacional-de-botanica-tropical-20-anos), Brazil, Brazil
 
-2020
+Aug 2020
 
 ### Seabird habitat use and its association offoraging with Guiana dolphin (Sotalia guianensis) in Sepetiba Bay (2018).
 
@@ -327,7 +336,7 @@ Committee Member   {data-icon=users}
 
 [UFRJ](https://ufrj.br/en/), Brazil
 
-2018
+Jul 2018
 
 <br>
 <br>
