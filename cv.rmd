@@ -519,3 +519,16 @@ Sep 2020
 <!-- ```{r} -->
 <!-- CV %<>% print_links() -->
 <!-- ``` -->
+
+::: {.aside}
+
+This CV was made with R packages:
+[**pagedown**](https://github.com/rstudio/pagedown) e
+[**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
+
+Code available at <i class="fa fa-github"></i>
+[GitHub](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io).
+
+Last updated in `r Sys.Date()` and [available here](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/blob/main/cv.pdf).
+:::
+
