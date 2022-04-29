@@ -86,7 +86,7 @@ knitr::include_graphics("images/CV_profile.jpg")
  if(params$pdf_mode){
   cat("[Online version available here](https://tai-rocha.github.io/Tai-Rocha_CV.github.io/)")
   } else {
-  cat("<i class='fas fa-download'></i> [Download this cv in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/raw/main/cv.pdf).")
+  cat("<i class='fas fa-download'></i> [Download this cv in PDF](https://github.com/Tai-Rocha/Tai-Rocha_CV.github.io/blob/main/Rocha_T_cv.pdf).")
 }
 ```
 
