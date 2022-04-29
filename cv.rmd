@@ -279,7 +279,7 @@ Committee Member   {data-icon=users}
 <!-- #CV %<>% print_section('committee') -->
 <!-- ``` -->
 
-### Modelagem de nicho ambiental de espécies vegetais da Caatinga como ferramenta para avaliação dos impactos das mudanças climáticas e do progresso das ods’s 13 e 15 no bioma semiárido brasileiro
+### Modeling species distribution of plant species as tool for assessing the impacts of climate changes andprogress of Sustainable Development Goals (SDGs) 13 and 15 in Brazilian semi-arid biome
 
 **Final Master committee**. Student: Lucas Peixoto Teixeira <br>
 Advisor: Marcelo FreireMoro
@@ -311,9 +311,9 @@ Jul 2021
 
 [UFRA](https://capanema.ufra.edu.br/), Brazil
 
-Marc 2021
+Mar 2021
 
-### Modeling species dis-tribution of plant species as tool for assessing the impacts of climate changes andprogress of Sustainable Development Goals (SDGs) 13 and 15 in Caatinga biome
+### Modeling species distribution of plant species as tool for assessing the impacts of climate changes andprogress of Sustainable Development Goals (SDGs) 13 and 15 in Caatinga biome
 
 **Master’s qualifying examination**. Student: Lucas Peixoto Teixeira. Advisor: Marcelo Freire Moro. Institution: UFC
 
@@ -326,7 +326,7 @@ Feb 2021
 
 **Master’s project monitoring committee**. Student: Bárbara Piovani Luz Aieta Afonso.  Supervisor: Marinez Ferreira de Siqueira. Institution: ENBT/JBRJ
 
-[ENBT-JBRJ](https://www.gov.br/jbrj/pt-br/assuntos/educacao/escola-nacional-de-botanica-tropical-20-anos), Brazil, Brazil
+[ENBT-JBRJ](https://www.gov.br/jbrj/pt-br/assuntos/educacao/escola-nacional-de-botanica-tropical-20-anos), Brazil
 
 Aug 2020
 
@@ -468,7 +468,7 @@ Complementary Training Courses {data-icon=book}
 
 ### R for Data Science II 
 
-[<i class="fa fa-meetup"></i>](https://curso-r.github.io/202111-r4ds-2/) This course aims to deepen the essential concepts of programming in R for Data Science.  We will present intermediate and advanced data manipulation techniques from real data analysis problems, including texts and dates, and functional programming concepts. 18 h
+[<i class="fa fa-meetup"></i>](https://curso-r.github.io/202111-r4ds-2/) This course aims to deepen the essential concepts of programming in R for Data Science.  Advanced data manipulation techniques from real data analysis problems, including texts and dates, and functional programming concepts. 18 h
 
 Online 
 
