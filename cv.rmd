@@ -142,23 +142,30 @@ CV %<>% print_section('research_positions')
 knitr::include_graphics("images/Skills.png")
 ``` 
 
-<i class="fab fa-r-project"></i> `R`
+<i class="fab fa-r-project fa-2x"></i> 
 
-<i class="fas fa-code-branch"></i> `Git`
+<i class="fas fa-code-branch fa-2x"></i> `Git`
 
-<i class="fab fa-github"></i> `GitHub`
+<i class="fab fa-github fa-2x"></i> `GitHub`
 
-<i class="fab fa-markdown"></i> `Markdown`
+<i class="fab fa-markdown fa-2x"></i> `Markdown`
 
-```{r echo=FALSE, out.width="20%"}
-knitr::include_graphics("images/TeX.png")
-```
-
-<i class="fa fa-linux" aria-hidden="true"></i>
+<i class="fa fa-linux fa-2x" aria-hidden="true"></i>
  `Linux OS`
  
-<i class="fa fa-desktop" aria-hidden="true"></i>
+<i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
  `Virtual Machines`
+ 
+
+```{r echo=FALSE, out.width="23%"}
+knitr::include_graphics("images/cloud.png")
+```
+`Cloud Services`
+
+```{r echo=FALSE, out.width="16%"}
+knitr::include_graphics("images/gee.jpeg")
+``` 
+`Google Earth Engine`
 
 ```{r echo=FALSE, out.width="13%"}
 knitr::include_graphics("images/QGIS.png")
