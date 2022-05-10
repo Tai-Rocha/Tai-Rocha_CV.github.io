@@ -129,12 +129,16 @@ Education {data-icon=user-graduate data-concise=true}
 CV %<>% print_section('education')
 ```
 
+
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('research_positions')
 ```
+
+<br>
+<br>
 
 ::: aside
 
@@ -176,7 +180,6 @@ knitr::include_graphics("images/QGIS.png")
 knitr::include_graphics("images/ARCGIS.png")
 ``` 
 :::
-
 
 Selected Publications {data-icon=file-text}
 --------------------------------------------------------------------------------
