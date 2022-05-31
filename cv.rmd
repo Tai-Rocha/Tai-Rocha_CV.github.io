@@ -376,6 +376,8 @@ Rio de Janeiro
 RJ, Brazil
 
 2019
+
+<br>
 <br>
 <br>
 <br>
@@ -386,25 +388,31 @@ RJ, Brazil
 Selected Talks & Scientific communication  {data-icon=bullhorn}
 --------------------------------------------------------------------------------
 ::: aside
-```{r}
-CV %<>% print_text_block('data_science_writing_aside')
-```
+I have a  [website](https://tainaweb-en.netlify.app/) to talk about science communication, provide tutorials and diverse content.
 :::
 
 <!-- ```{r} -->
 <!-- CV %<>% print_section('talks') -->
 <!-- ``` -->
 
-### Open tools and databases to analyze biodiversity in space and time 
+### VI International Seminar on Statistics with R
 
-Week curator at [Biodiversity in Focus](https://twitter.com/biodivfoco?lang=en) | [Webpage](https://tai-rocha.github.io/Curadoria_Biodiversidade_em_Foco.github.io/) for the content shared
+[VI SER](https://www.youtube.com/watch?v=bxzxpL5B-g8&t=7312s) rgee: an R package to use  Google Earth Engine| Participation as a Speaker.
+
+online
+
+May 2022
+
+### Global land-use and land-cover data: historical, current and future scenarios 
+Final presentation in [OLS-2](https://openlifesci.org/ols-2/projects-participants/#participants)|[Slides](https://tai-rocha.github.io/OLS_2_Tai-Rocha.github.io/#1)
 
 Online 
 
 2020
 
-### Global land-use and land-cover data: historical, current and future scenarios 
-Final presentation in [OLS-2](https://openlifesci.org/ols-2/projects-participants/#participants)|[Slides](https://tai-rocha.github.io/OLS_2_Tai-Rocha.github.io/#1)
+### Open tools and databases to analyze biodiversity in space and time 
+
+Week curator at [Biodiversity in Focus](https://twitter.com/biodivfoco?lang=en) | [Webpage](https://tai-rocha.github.io/Curadoria_Biodiversidade_em_Foco.github.io/) for the content shared
 
 Online 
 
