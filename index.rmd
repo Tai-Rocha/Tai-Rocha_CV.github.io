@@ -186,7 +186,7 @@ CV %<>% print_section('research_positions')
 
 <i class="fab fa-twitter"></i> [Twitter](https://twitter.com/Tai_Rocha_)
 
-<i class="fas fa-blog"></i> [Website](https://tainaweb-en.netlify.app/)
+<i class="fas fa-blog"></i> [Website](https://tairocha.netlify.app/)
 
 
 :::
