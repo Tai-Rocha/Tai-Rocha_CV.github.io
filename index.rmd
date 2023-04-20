@@ -414,7 +414,7 @@ RJ, Brazil
 Selected Talks & Scientific communication  {data-icon=bullhorn}
 --------------------------------------------------------------------------------
 ::: aside
-I have a  [website](https://tainaweb-en.netlify.app/) to talk about science communication, provide tutorials and diverse content.
+I have a  [website](https://tairocha.netlify.app/) to talk about science communication, provide tutorials and diverse content.
 :::
 
 <!-- ```{r} -->
